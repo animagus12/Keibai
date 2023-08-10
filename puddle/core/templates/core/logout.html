@@ -1,0 +1,13 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Log In{% endblock %}
+
+{% block content %}
+
+<div class="w-1/2 my-6 p-6 mx-auto bg-gray-100 rounded-xl">
+    <h1 class="mb-6 text-3xl">Successfully Logged Out</h1>
+
+    <a href="{% url 'core:login' %}" class = "px-6 py-3 text-lg font-semigold bg-teal-500 text-white rounded-xl hover:bg-teal-700">Back to Log In</a>
+</div>
+
+{% endblock %}
